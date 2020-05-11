@@ -1,0 +1,7 @@
+env:
+    - APAMA_VERSION=10.5.2.1
+    cache:
+    directories:
+    - $TRAVIS_BUILD_DIR/apama
+install: prepare_env.sh
+script: build.sh 
